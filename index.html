@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <script type="module" crossorigin src="/assets/index-5ZdDiLs4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BUbWvxJX.css">
+  </head>
+  <body>
+    <div id="app">
+    <main class="todo-view">
+        <h1 id="current-project-title">Todo</h1><button id="open-task-modal">Add Task</button>
+        <div id="task-container">
+            </div>
+    </main>
+
+    <br><br>
+    <div class="form" style="display: none;">
+        <label for="title">Todo Title</label>
+        <br><br>
+        <input class="title" name="title" required> 
+
+        <br><br>
+
+        <label for="desc">Todo Description</label>
+        <br><br>
+        <input class="desc" name="desc" required>
+
+        <br><br>
+
+        <label for="date">Date</label>
+        <br><br>
+        <input type="date" class="date" name="date" required>
+
+        <br><br>
+
+        <label for="pri">Priority?</label>
+        <input type="checkbox" class="pri" name="priority" required>
+
+        <br><br>
+
+        <button class="conftodo">Add Todo</button>
+    </div>
+    <div class="todo-app">
+
+    </div>
+    </div>
+  </body>
+</html>
